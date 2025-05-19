@@ -1,0 +1,63 @@
+@font-face{
+    font-family: 'CustomFont';
+    src: url('fonts/Pyxxl.ttf')format('truetype');
+    font-weight:normal;
+    font-style: normal;
+}
+body{
+    background-color: rgba(57, 62, 70, 1);
+    margin: 0;
+    padding: 0;
+}
+
+.screen{
+    position: relative;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    padding-top: 1px;
+    padding-right: 3px;
+
+}
+
+
+.title {
+ 
+    font-family: 'CustomFont';
+    font-size: 21px;  
+    color: #AAADAA;
+    -webkit-text-stroke: 1px rgba(38, 16, 16, 1);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);   
+    margin-bottom: 8px;
+    
+}
+
+
+.option {
+    width: 198px;
+    height: 46px;
+    background-color: rgba(217, 217, 217, 1);
+    border: 1px solid rgba(161, 132, 132, 1);
+    border-radius: 15px;
+    font-family: 'CustomFont';
+    color: rgba(133, 117, 95, 1);
+    font-size: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+                  
+
+}
+
+
+.btnDean,.btnProf,.btnStaff{
+    margin: 10px;
+    position: static;
+    
+}
